@@ -19,7 +19,7 @@
  
 <h1 align="center">💢LOVER BOY MD💢</h1>
 
-#### 🪩 To Change the owner number click here [CHANGE ONWER](https://github.com/Umar4t7/LOVER-BOY-MD/blob/main/plugins/main-creator.js#L7)🪩
+#### 🪩|| To Change the owner number click here [💢CHANGE ONWER NUMBER💢](https://github.com/Umar4t7/LOVER-BOY-MD/blob/main/plugins/main-creator.js#L7)
 
 <h2 align="left">LOGGING WITH PAIRING CODE</h2>
 <p align="left">
