@@ -1,6 +1,6 @@
  <p align="center">  
   <a href="">
-    <img alt="LOVER" width="400" height="550" src="https://telegra.ph/file/7f281da946ecf82d2e306.jpg">
+    <img alt="LOVER" width="400" height="500" src="https://telegra.ph/file/7f281da946ecf82d2e306.jpg">
   </a>
 </p>
 
