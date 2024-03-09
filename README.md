@@ -1,6 +1,6 @@
  <p align="center">  
   <a href="">
-    <img alt="LOVER" width="450" height="400" src="https://telegra.ph/file/7f281da946ecf82d2e306.jpg">
+    <img alt="LOVER" width="430" height="400" src="https://telegra.ph/file/7f281da946ecf82d2e306.jpg">
   </a>
 </p>
 
@@ -17,7 +17,7 @@
 <a href="https://github.com/Umar4t7/LOVER-BOY-MD/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/Umar4t7/LOVER-BOY-MD?label=Watching&style=social"></a>
 </p>
  
-<h1 align="center">💢LOVER BOY MD💢</h1>
+<h1 align="center">LOVER BOY MD</h1>
 
 #### 🪩|| To Change the owner number click here [💢CHANGE ONWER NUMBER💢](https://github.com/Umar4t7/LOVER-BOY-MD/blob/main/plugins/main-creator.js#L7)
 
