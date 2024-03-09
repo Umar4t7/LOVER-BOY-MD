@@ -9,7 +9,7 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
     let url = `https://api.github.com/repos/${user}/${repo}/zipball`
     let filename = (await fetch(url, { method: 'HEAD' })).headers.get('content-disposition').match(/attachment; filename=(.*)/)[1]
   
-    m.reply(`✳️ *sending repository..*`)
+    m.reply(`✳️*Sending Repository..*`)
     conn.sendFile(m.chat, url, filename, null, m)
 }
 handler.help = ['gitclone <url>']
