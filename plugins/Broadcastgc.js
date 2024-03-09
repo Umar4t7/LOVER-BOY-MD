@@ -19,7 +19,7 @@ timeOffset: 3,
 contextInfo: m,
 }}, {}).catch(_ => _)
     }
-  m.reply(`*MESSAGE SENT TO ${anu.length} GROUP/S*\n\n*NOTE: THIS COMMAND MAY FAIL AND NOT BE SENT TO ALL CHATS, SORRY FOR THE TIME BEING*`)
+  m.reply(`*MESSAGE SENT TO ${anu.length} GROUP/S*\n\n*NOTE: THIS COMMAND MAY FAIL AND NOT BE SENT TO ALL CHATS WITH LOVER-BOY-MD, SORRY FOR THE TIME BEING*`)
 }
 handler.help = ['broadcastgroup', 'bcgc'].map(v => v + ' <text>')
 handler.tags = ['owner']
