@@ -39,14 +39,14 @@ for (let i = 0; i < img.length; i++) {
         await conn.sendFile(m.chat, resultss, 'error.mp4', txt2, cap, m);
       } catch {
         try {
-          let cap = 'Here is your insta video';
+          let cap = '*💢LOVER-BOY-MD💢*';
           const resultssss = await instagramdl(args[0]);
           const shortUrl3 = await (await fetch(`https://tinyurl.com/api-create.php?url=${args[0]}`)).text();
           const txt4 = `_*< Instagram downloader/>*_\n\n▢ *URL:* _${shortUrl3}_`.trim();
           for (const {url} of resultssss) await conn.sendFile(m.chat, url, 'error.mp4', txt4, m);
         } catch {
           try {
-            let cap = 'Here is your insta video';
+            let cap = '*💢LOVER-BOY-MD💢*';
             const human = await fetch(`https://api.lolhuman.xyz/api/instagram?apikey=${lolkeysapi}&url=${args[0]}`);
             const json = await human.json();
             const videoig = json.result;
@@ -54,7 +54,7 @@ for (let i = 0; i < img.length; i++) {
             const txt1 = `_*< Instagram downloader />*_\n\n▢ *URL:* _${shortUrl1}_`.trim();
             await conn.sendFile(m.chat, videoig, 'error.mp4', txt1, cap, m);
           } catch {
-            throw `_*[ ⛔ ] An error occurred. Please try again later._*`;
+            throw `_*[ ⛔ ] Sorry! I Can't Find Anything ☹️_*`;
           }
         }
       }
