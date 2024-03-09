@@ -13,10 +13,10 @@ let limit_a2 = 400;
 const handler = async (m, {conn, command, args, text, usedPrefix}) => {
   if (!args[0] && m.quoted && m.quoted.text) {
   }
-  if (!args[0] && !m.quoted) throw `🅔🅖   *${usedPrefix}${command}*  𝙰𝚢𝚊𝚊 𝚑𝚊𝚒 𝚋𝚞𝚕𝚊𝚠𝚊 𝙽𝚊𝚊𝚝...`;
+  if (!args[0] && !m.quoted) throw `🅔🅖   *${usedPrefix}${command}*  Yeh Ibrat ki Jagah Hai Tamasha Nahi Hai Naat`;
 
   try {
-    m.react("📥")
+    m.react("✨")
     const yt_play = await search(args.join(' '));
     let additionalText = '';
     if (command === 'playy') {
@@ -24,7 +24,7 @@ const handler = async (m, {conn, command, args, text, usedPrefix}) => {
     } else if (command === 'video') {
       additionalText = 'video 🎥';
     }
-    const texto1 = `╭━━⊱🌟 Y O U T U B E 🌟⊱━━╮
+    const texto1 = `╭━━⊱🌟 *LOVER-BOY-MD* 🌟⊱━━╮
     
   🪩 Channel: ${yt_play[0].author.name}
   📃 Title: ${yt_play[0].title}
@@ -35,7 +35,7 @@ const handler = async (m, {conn, command, args, text, usedPrefix}) => {
     conn.sendMessage(m.chat, {image: {url: yt_play[0].thumbnail}, caption: texto1}, {quoted: m});
     if (command == 'play') {
     try {
-    m.react("🎧")    
+    m.react("✅")    
     const q = '160kbps';
     const v = yt_play[0].url;
     const yt = await youtubedl(v).catch(async (_) => await youtubedlv2(v));
@@ -79,7 +79,7 @@ const handler = async (m, {conn, command, args, text, usedPrefix}) => {
 }
     if (command == 'video') {
     try {
-      m.react("📹")
+      m.react("🌺")
     const qu = '360';
     const q = qu + 'p';
     const v = yt_play[0].url;
@@ -105,7 +105,7 @@ const handler = async (m, {conn, command, args, text, usedPrefix}) => {
     await conn.sendMessage(m.chat, {video: ses, mimetype: 'video/mp4', fileName: ttl + `.mp4`}, {quoted: m});
     return;    
     }} catch {
-    const caption = 'Here is your video'
+    const caption = '*💢LOVER-BOY-MD💢*'
     const formats = await bestFormat(yt_play[0].url, 'video');
     const buff = await getBuffer(formats.url);
     const ttl_1 = `${yt_play[0].title ? yt_play[0].title : 'Tu_video_descargado'}`;
