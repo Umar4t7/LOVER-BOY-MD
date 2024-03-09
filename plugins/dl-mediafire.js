@@ -9,8 +9,8 @@ let handler = async (m, { conn, args, usedPrefix, command, isOwner, isPrems }) =
  if (!args[0] && m.quoted && m.quoted.text) {
   args[0] = m.quoted.text;
 }
-if (!args[0] && !m.quoted) throw `✳️ Enter the mediafire link next to the command`
-    if (!args[0].match(/mediafire/gi)) throw `❎ Link incorrect`
+if (!args[0] && !m.quoted) throw `✳️ Enter the mediafire link`
+    if (!args[0].match(/mediafire/gi)) throw `Invalid Link !`
     m.react(rwait)
     let full = /f$/i.test(command)
     let u = /https?:\/\//.test(args[0]) ? args[0] : 'https://' + args[0]
@@ -19,13 +19,13 @@ if (!args[0] && !m.quoted) throw `✳️ Enter the mediafire link next to the co
     let { url, url2, filename, ext, aploud, filesize, filesizeH } = res
     let isLimit = (isPrems || isOwner ? limit : limit) * 1012 < filesize
     let caption = `
-   ≡ *MEDIAFIRE*
+   ≡ *LOVER-BOY-MD*
 
 ▢ *Number:* ${filename}
 ▢ *Size:* ${filesizeH}
 ▢ *Extension:* ${ext}
 ▢ *Uploaded:* ${aploud}
-${isLimit ? `\n▢ The file exceeds the download limit *+${limit} MB*\nUpgrade to premium to be able to download files more than *900 MB*` : ''} 
+${isLimit ? `\n▢ The file is over the download limit *+${limit} MB*\nUpgrade to premium to be able to download files more than *900 MB*` : ''} 
 `.trim()
     await conn.sendFile(m.chat, ss, 'ssweb.png', caption, m)
     
