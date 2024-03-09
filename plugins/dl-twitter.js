@@ -6,7 +6,7 @@ if (!args[0]) throw `🔻 Example : \n*${usedPrefix + command}* past link here`
           try {
           let { SD, HD, desc, thumb, audio } = await fg.twitter(args[0])
           let te = ` 
-┌─⊷ *TWITTER DL*
+┌─⊷ *LOVER-BOY-MD*
 ▢✫ Description: ${desc}
 └───────────`
 conn.sendFile(m.chat, HD, 'twitter.mp4', te, m)
