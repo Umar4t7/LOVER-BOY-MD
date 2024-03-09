@@ -1,10 +1,10 @@
 {
-  "name": "whatsapp-bot (PRINCE-BOT)",
-  "description": " Whatsapp bot.",
+  "name": "(LOVER BOY MD)",
+  "description": " MULTI-DEVICE WHATSAPP BOT WAS CREATED BY UMAR",
   "keywords": [
     "whatsapp bot"
   ],
-  "repository": "https://github.com/PRINCE-GDS/THE-PRINCE-BOT",
+  "repository": "https://github.com/Umar4t7/LOVER-BOY-MD",
   "stack": "container",
   "env": {
        "DATABASE_URL": {
