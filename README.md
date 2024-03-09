@@ -1,13 +1,13 @@
  <p align="center">  
   <a href="">
-    <img alt="PRINCE" width="600" height="350" src="https://i.imgur.com/iI086tX.jpeg">
+    <img alt="LOVER" width="400" height="600" src="https://telegra.ph/file/7f281da946ecf82d2e306.jpg">
   </a>
 </p>
 
 
 
 <p align="center">
-<a href="https://github.com/PRINCE-GDS/THE-PRINCE-BOT"><img title="Author" src="https://img.shields.io/badge/THE PRINCE BOT-black?style=for-the-badge&logo=github"></a>
+<a href="https://github.com/Umar4t7/LOVER-BOY-MD"><img title="Author" src="https://img.shields.io/badge/LOVER BOY MD-black?style=for-the-badge&logo=github"></a>
 <p/>
 
 <p align="center">
