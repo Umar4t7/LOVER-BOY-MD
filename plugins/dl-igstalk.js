@@ -5,7 +5,7 @@ let handler= async (m, { conn, args, text, usedPrefix, command }) => {
     if (!args[0]) throw `✳️ Enter the Instagram Username\n\n📌Example: ${usedPrefix + command} *UMAR*` 
     let res = await fg.igStalk(args[0])
     let te = `
-┌──「 *STALKING* 
+┌──「 *LOVER-BOY-MD* 
 ▢ *🔖Number:* ${res.name} 
 ▢ *🔖Username:* ${res.username}
 ▢ *👥followers:* ${res.followersH}
