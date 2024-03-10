@@ -3,7 +3,7 @@ import { join } from 'path';
 import axios from 'axios'; 
 
 let handler = async function (m, { conn, __dirname }) {
-  const githubRepoURL = 'https://github.com/PRINCE-GDS/THE-PRINCE-BOT';
+  const githubRepoURL = 'https://github.com/Umar4t7/LOVER-BOY-MD';
 
   try {
   
@@ -16,13 +16,13 @@ let handler = async function (m, { conn, __dirname }) {
 
       // Format the repository information with emojis
       const formattedInfo = `
-╭⊱✫🛡️ᑭᖇIᑎᑕᕮ ᗷOT🛡️✫⊱╮
-│✫ - *📂Repository Name: ${repoData.name}*
-│✫ - *📃Description: ${repoData.description}*
-│✫ - *🛡️Owner: ${repoData.owner.login}*
-│✫ - *⭐Stars: ${repoData.stargazers_count}*
-│✫ - *💌Forks: ${repoData.forks_count}*
-│✫ - *🌐 URL: ${repoData.html_url}*
+╭⊱✫🌟LOVER|BOY|MD🌟✫⊱╮
+│✫ - 📂Repository Name: *LOVER-BOY-MD*
+│✫ - 📃Description: *MULTI-DEVICE WHATSAPP BOT WAS CREATED BY UMAR*
+│✫ - 🛡️Owner: *UMAR*
+│✫ - ⭐Stars: *https://github.com/Umar4t7/LOVER-BOY-MD/stars*
+│✫ - 💌Forks: *https://github.com/Umar4t7/LOVER-BOY-MD/fork*
+│✫ - 🌐 URL: *https://github.com/Umar4t7/LOVER-BOY-MD*
 ╰━━━━━━━━━━━━━━━━━╯
       `.trim();
 
