@@ -55,18 +55,18 @@ let infobt = `
 ▢ *${chats.length - groupsIn.length}* private chats
 ▢ *${chats.length}* Total Chats
 
-*≡ OWNER🧑‍💻*
- _PRINCE GDS_
-▢ https://whatsapp.com/channel/0029VaKNbWkKbYMLb61S1v11
-  
-▢ MY BOT GC LINK.
-  https://chat.whatsapp.com/Jo5bmHMAlZpEIp75mKbwxP
+*LOVER BOY MD*
 
- *≡ S E R V E R*
+▢ https://wa.me/923158930864
+  
+▢ JOIN OUR SUPPORT GROUP
+  https://chat.whatsapp.com/Hwo2RhSbkW91pPzxw4HTgB
+
+ *SERVER*
 *🛑 RAM:* ${format(totalmem() - freemem())} / ${format(totalmem())}
 *🔵 FreeRAM:* ${format(freemem())}
 
-*≡  NodeJS memory *
+*MEMORY*
 ${'```' + Object.keys(used).map((key, _, arr) => `${key.padEnd(Math.max(...arr.map(v => v.length)), ' ')}: ${format(used[key])}`).join('\n') + '```'}
 `
 conn.sendFile(m.chat, pp, 'prefil.jpg', infobt, m, false, { mentions: [who] })
